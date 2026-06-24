@@ -120,3 +120,6 @@ source /Users/gabo/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # dotnet tools
 export PATH="$PATH:/Users/gabo/.dotnet/tools"
+
+# uv (Python project managment)
+. "$HOME/.local/bin/env"
