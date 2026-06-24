@@ -1,0 +1,29 @@
+# tmux integration - send save-buffer command
+keybind = cmd+s=text:\x01\x73
+
+# tmux prefix to toggle zoom on current pane
+keybind = cmd+b=text:\x01\x7a
+
+# aesthetics
+background-opacity = 0.85
+background-blur=16
+background=#000000
+macos-titlebar-style = hidden
+
+# typography
+font-size=16
+font-thicken=true
+font-thicken-strength=1
+adjust-cell-height=1
+
+theme = Gruvbox Material Dark
+
+window-height=36
+window-width=160
+window-padding-x = 24
+window-padding-y = 24
+
+font-family = "MonaspiceAr Nerd Font"
+font-size = 16
+macos-titlebar-style = "tabs"
+keybind = shift+enter=text:\n
